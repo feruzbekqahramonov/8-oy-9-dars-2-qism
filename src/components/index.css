@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  background-color: #ffff;
+  padding: 20px 24px;
+  border-bottom: 2px solid #e2e2ea;
+  margin-bottom: 24px;
+}
+
+.header-container {
+  max-width: 1359px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.pagesUrl {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #92929d;
+  cursor: pointer;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.select select {
+  outline: none;
+  border: none;
+}
